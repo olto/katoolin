@@ -19,7 +19,7 @@ def main():
 		''')
 		def inicio1():
 			while True:
-				print ('''
+				print('''
 1) Add Kali repositories & Update 
 2) View Categories
 3) Install classicmenu indicator
