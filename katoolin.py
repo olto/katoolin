@@ -157,7 +157,7 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 						''')
 							print("\033[1;32mInsert the number of the tool to install it .\033[1;m")
 							print(" ")
-							opcion2 = raw_input("\033[1;36mkat > \033[1;m")
+							opcion2 = input("\033[1;36mkat > \033[1;m")
 							if opcion2 == "1":
 								cmd = os.system("apt-get install acccheck")
 
